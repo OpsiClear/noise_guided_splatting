@@ -165,12 +165,12 @@ results/evaluation_output/
 If you find our work useful, please consider citing our paper:
 
 ```bibtex
-@inproceedings{elhakie2025ngs,
-  title={Fix False Transparency by Noise Guided Splatting},
-  author={El Hakie, Aly and Lu, Yiren and Yin, Yu and Jenkins, Michael and Liu, Yehe},
-  booktitle={Thirty-ninth Conference on Neural Information Processing Systems},
-  year={2025},
-  url={https://opsiclear.github.io/ngs/}
+@inproceedings{ElHakie2025NGS,
+    author    = {El Hakie, Aly and Lu, Yiren and Yin, Yu and Jenkins, Michael and Liu, Yehe},
+    title     = {Fix False Transparency by Noise Guided Splatting},
+    booktitle = {The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+    year      = {2025},
+    url       = {https://opsiclear.github.io/ngs/}
 }
 ```
 
