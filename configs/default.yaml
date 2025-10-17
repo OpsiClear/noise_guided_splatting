@@ -1,0 +1,75 @@
+# Specify the path to the images directory and the output directory
+gpu_indices: '7'                    #Specify the GPU device to use
+
+
+disable_viewer: true
+ckpt: null
+compression: null
+render_traj_path: "ellipse"  # "interp" "ellipse" "spiral"
+data_dir: "/data/shared/aly/scan_20250719_161647_mandarin"
+data_factor: 1
+result_dir: "/data/shared/aly/results/scan_20250719_161647_mandarin"
+test_every: 8
+patch_size: null
+global_scale: 1.0
+normalize_world_space: false
+camera_model: "pinhole"  # options: pinhole, ortho, fisheye
+port: 8080
+batch_size: 1
+steps_scaler: 1
+
+optimize_foreground: true
+hull_filter_step: -1
+reset_noise_interval: 1500
+rade_step: -1
+noise_steps: [6000]
+unfreeze_steps: [1000]
+opa_threshold: 0.0
+init_noise_opa: 0.1
+freeze_noise_opa: 1.0
+opaque_surface: false
+voxel_resolution: 32
+erosion_steps: 3
+increase_erosion_steps: true
+foreground_loss: true
+noise_color: null
+reset_lr: true
+
+max_steps: 30_000
+eval_steps: [7000, 30000] 
+save_steps: [7000, 30000]
+init_type: "sfm" # "sfm" "mcmc"
+init_num_pts: 100_000
+init_extent: 3.0
+sh_degree: 3
+sh_degree_interval: 1000
+init_opa: 0.1
+init_scale: 1.0
+ssim_lambda: 0.2
+near_plane: 0.01
+far_plane: 10000
+packed: false
+sparse_grad: false
+visible_adam: false
+antialiased: false
+random_bkgd: false
+opacity_reg: 0.0
+scale_reg: 0.0
+pose_opt: true
+pose_opt_lr: 0.000001
+pose_opt_reg: 0.0000001
+pose_noise: 0.0
+app_opt: false
+feature_dim: 32
+app_embed_dim: 16
+app_opt_lr: 0.001
+app_opt_reg: 0.000001
+use_bilateral_grid: true
+bilateral_grid_shape: [16, 16, 8]
+depth_loss: false
+depth_lambda: 0.01
+tb_every: 100
+tb_save_image: false
+lpips_net: "alex"
+
+
