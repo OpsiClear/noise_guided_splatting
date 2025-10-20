@@ -1,6 +1,6 @@
 # Fix False Transparency by Noise Guided Splatting (NGS)
 
-**[![NeurIPS 2025](https://img.shields.io/badge/NeurIPS-2025-orange.svg)](https://neurips.cc/virtual/2025/poster/115515) [![Project Page](https://img.shields.io/badge/🌐-Project%20Page-blue)](https://opsiclear.github.io/ngs/) [![Datasets](https://img.shields.io/badge/🤗-Datasets-yellow.svg)](https://huggingface.co/datasets/OpsiClear/NGS)  [![Arxiv](https://img.shields.io/badge/Arxiv-TODO-b31b1b.svg)](TODO)**
+**[![NeurIPS 2025](https://img.shields.io/badge/NeurIPS-2025-orange.svg)](https://neurips.cc/virtual/2025/poster/115515) [![Project Page](https://img.shields.io/badge/🌐-Project%20Page-blue)](https://opsiclear.github.io/ngs/) [![Datasets](https://img.shields.io/badge/🤗-Datasets-yellow.svg)](https://huggingface.co/datasets/OpsiClear/NGS)  [![Arxiv](https://img.shields.io/badge/Arxiv-PDF-b31b1b.svg)](https://arxiv.org/abs/2510.15736)**
 
 This repository provides the official implementation for our NeurIPS 2025 paper, "Fix False Transparency by Noise Guided Splatting." It includes code to train 3D Gaussian Splatting models with our **Noise Guided Splatting (NGS)** strategy to prevent false transparency, and tools to evaluate this artifact in any 3DGS reconstruction.
 
