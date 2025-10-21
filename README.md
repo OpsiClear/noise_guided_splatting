@@ -49,8 +49,9 @@ We recommend using `uv` for fast and efficient package management.
 
 4.  **Install NGS and all other dependencies:**
     ```bash
-    uv sync
+    uv sync --no-build-isolation
     ```
+    It's important to use the `--no-build-isolation` flag, since uv is not able to resolve gsplat dependencies.
 
 ## Dataset Preparation
 
